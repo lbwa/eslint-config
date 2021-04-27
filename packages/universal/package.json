@@ -1,0 +1,38 @@
+{
+  "name": "@lbwa/eslint-config-universal",
+  "version": "0.0.0",
+  "description": "An opinionated eslint config",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Liu Bowen <mr_lbw@outlook.com>",
+  "homepage": "https://github.com/lbwa/eslint-config",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lbwa/eslint-config.git",
+    "directory": "packages/universal"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/lbwa/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-prettier": "^3.4.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.25.0"
+  }
+}

@@ -6,11 +6,13 @@
   ],
   "scripts": {
     "prepare": "husky install && lerna bootstrap",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,sass,less,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,sass,less,md}\"",
+    "lint": "yarn eslint --ext .js --fix ."
   },
   "devDependencies": {
     "@lbwa/eslint-config": "*",
     "@lbwa/prettier-config": "^0.1.0",
+    "eslint": "^7.25.0",
     "husky": "^6.0.0",
     "lerna": "^4.0.0",
     "lint-staged": "^10.5.4",
