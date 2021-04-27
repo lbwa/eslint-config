@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "prepare": "husky install && lerna bootstrap",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,sass,less,md}\""
+  },
+  "devDependencies": {
+    "@lbwa/eslint-config": "*",
+    "@lbwa/prettier-config": "^0.1.0",
+    "husky": "^6.0.0",
+    "lerna": "^4.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "prettier": "@lbwa/prettier-config",
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json,css,scss,sass,less,md}": [
+      "prettier --write"
+    ]
+  }
+}
