@@ -1,0 +1,35 @@
+{
+  "name": "@lbwa/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "An opinionated eslint config",
+  "keywords": [
+    "eslint",
+    "typescript"
+  ],
+  "author": "Liu Bowen <mr_lbw@outlook.com>",
+  "homepage": "https://github.com/lbwa/eslint-config",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lbwa/eslint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/lbwa/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^7.25.0"
+  },
+  "dependencies": {
+    "@lbwa/eslint-config-universal": "^0.0.0"
+  }
+}
