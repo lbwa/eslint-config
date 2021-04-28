@@ -1,11 +1,14 @@
-# `typescript`
+# @lbwa/eslint-config-typescript
 
-> TODO: description
+An opinionated eslint config.
 
-## Usage
-
+```js
+// .eslintrc.js
+module.exports = {
+  extends: ['@lbwa/eslint-config-typescript']
+}
 ```
-const typescript = require('typescript');
 
-// TODO: DEMONSTRATE API
-```
+## License
+
+MIT © [Liu Bowen](https://github.com/lbwa)

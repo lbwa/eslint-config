@@ -1,6 +1,13 @@
 # @lbwa/eslint-config-universal
 
-An opinionated eslint config
+An opinionated eslint config.
+
+```js
+// .eslintrc.js
+module.exports = {
+  extends: ['@lbwa/eslint-config-universal']
+}
+```
 
 ## License
 

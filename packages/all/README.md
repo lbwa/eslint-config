@@ -1,11 +1,14 @@
-# `all`
+# @lbwa/eslint-config
 
-> TODO: description
+An opinionated eslint config.
 
-## Usage
-
+```js
+// .eslintrc.js
+module.exports = {
+  extends: ['@lbwa']
+}
 ```
-const all = require('all');
 
-// TODO: DEMONSTRATE API
-```
+## License
+
+MIT © [Liu Bowen](https://github.com/lbwa)
