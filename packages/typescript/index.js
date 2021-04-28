@@ -8,7 +8,14 @@ module.exports = {
     // see https://github.com/typescript-eslint/typescript-eslint/blob/v4.22.0/packages/eslint-plugin/src/configs/recommended-requiring-type-checking.ts
     'plugin:@typescript-eslint/recommended-requiring-type-checking'
   ],
+  // https://github.com/typescript-eslint/typescript-eslint/tree/v4.22.0/packages/parser
   parser: '@typescript-eslint/parser',
+  parserOptions: {
+    // Relative paths are interpreted relative to the current working directory if tsconfigRootDir is not set.
+    // see https://github.com/typescript-eslint/typescript-eslint/issues/540#issuecomment-493778387
+    // see https://github.com/typescript-eslint/typescript-eslint/issues/1681#issuecomment-595327139
+    project: ['./tsconfig.json', './packages/*/tsconfig.json']
+  },
   // use @typescript-eslint/eslint-plugin
   plugins: ['@typescript-eslint'],
   rules: {

@@ -1,6 +1,6 @@
 {
   "name": "@lbwa/eslint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An opinionated eslint config",
   "keywords": [
     "eslint"
@@ -13,7 +13,8 @@
     "index.js"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,6 @@
     "eslint": "^7.25.0"
   },
   "dependencies": {
-    "@lbwa/eslint-config-universal": "^0.0.0"
+    "@lbwa/eslint-config-universal": "^0.1.0"
   }
 }
