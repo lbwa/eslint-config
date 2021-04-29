@@ -3,14 +3,9 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.3.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config@0.2.0...@lbwa/eslint-config@0.3.0) (2021-04-29)
+# 0.1.0 (2021-04-29)
 
 ### Features
 
 - **all:** use react config(include universal config) ([9c50cc3](https://github.com/lbwa/eslint-config/commit/9c50cc342923aac8e6c93c17d2840cab6cde3c70))
-
-# 0.2.0 (2021-04-28)
-
-### Features
-
-- **universal:** prettier, jest, import rules ([0eff5a0](https://github.com/lbwa/eslint-config/commit/0eff5a0ab63fc831de147276c2fbd4b28ed8dcb4))
+- **react:** react tsx/jsx rules ([28bad4f](https://github.com/lbwa/eslint-config/commit/28bad4f8727e0919ff4a2981100b758953b59d0b))
