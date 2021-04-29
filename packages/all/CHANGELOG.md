@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config@0.3.0...@lbwa/eslint-config@0.3.1) (2021-04-29)
+
+### Bug Fixes
+
+- resolve extends field ([523dd59](https://github.com/lbwa/eslint-config/commit/523dd5968b189ea0d1e691f14b1cc188f9015145))
+
 # [0.3.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config@0.2.0...@lbwa/eslint-config@0.3.0) (2021-04-29)
 
 ### Features
