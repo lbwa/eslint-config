@@ -1,6 +1,6 @@
 {
   "name": "@lbwa/eslint-config-typescript",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "An opinionated eslint config",
   "keywords": [
     "eslint",

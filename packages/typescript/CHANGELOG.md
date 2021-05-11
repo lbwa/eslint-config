@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-typescript@0.3.0...@lbwa/eslint-config-typescript@0.3.1) (2021-05-11)
+
+### Bug Fixes
+
+- **ts:** make typescript-eslint plugin/parser as peer deps ([d4f5e08](https://github.com/lbwa/eslint-config/commit/d4f5e082ea109e28be32d9cd47c534a8fea1cc7f))
+
 # [0.3.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-typescript@0.2.0...@lbwa/eslint-config-typescript@0.3.0) (2021-04-29)
 
 ### Features
