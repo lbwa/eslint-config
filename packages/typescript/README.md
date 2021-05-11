@@ -2,6 +2,16 @@
 
 An opinionated eslint config.
 
+## Installation
+
+```bash
+yarn add @lbwa/eslint-config-typescript@^0.3.0 \
+  @typescript-eslint/eslint-plugin@^4.23.0 \
+  @typescript-eslint/parser@^4.23.0
+```
+
+## Usage
+
 ```js
 // .eslintrc.js
 module.exports = {
