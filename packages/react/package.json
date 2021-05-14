@@ -1,6 +1,6 @@
 {
   "name": "@lbwa/eslint-config-react",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "An opinionated eslint config.",
   "author": "Liu Bowen <mr_lbw@outlook.com>",
   "homepage": "https://github.com/lbwa/eslint-config",
@@ -32,7 +32,7 @@
     "eslint": "^7.25.0"
   },
   "dependencies": {
-    "@lbwa/eslint-config-typescript": "^0.3.1",
+    "@lbwa/eslint-config-typescript": "^0.4.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-flowtype": "^5.7.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
