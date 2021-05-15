@@ -68,7 +68,7 @@ module.exports = {
         // see https://github.com/typescript-eslint/typescript-eslint/blob/v4.23.0/packages/eslint-plugin/docs/rules/no-floating-promises.md
         '@typescript-eslint/no-floating-promises': [
           'error',
-          { ignoreIIFE: true }
+          { ignoreVoid: true, ignoreIIFE: true }
         ]
       }
     }
