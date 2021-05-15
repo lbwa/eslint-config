@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-typescript@0.4.0...@lbwa/eslint-config-typescript@0.4.1) (2021-05-15)
+
+### Bug Fixes
+
+- add missing ignoreVoid ([ecf050a](https://github.com/lbwa/eslint-config/commit/ecf050af030facd0e986a94a1315d79748f1cdb1))
+
 # [0.4.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-typescript@0.3.1...@lbwa/eslint-config-typescript@0.4.0) (2021-05-14)
 
 **Note:** Version bump only for package @lbwa/eslint-config-typescript
