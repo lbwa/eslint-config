@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-universal@0.2.0...@lbwa/eslint-config-universal@0.3.0) (2021-09-03)
+
+### Features
+
+- **uni:** forbid the default/named importation of lodash ([6d43dab](https://github.com/lbwa/eslint-config/commit/6d43dabaab08de88d48f643d09d690506377bd69))
+
 # 0.2.0 (2021-04-28)
 
 ### Features
