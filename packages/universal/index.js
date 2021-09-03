@@ -41,6 +41,19 @@ module.exports = {
     'no-use-before-define': [
       'error',
       { functions: false, classes: false, variables: true }
+    ],
+    // https://eslint.org/docs/rules/no-restricted-imports
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          {
+            name: 'lodash',
+            message:
+              'The default/named importation of lodash has been forbidden. Please use path import instead.'
+          }
+        ]
+      }
     ]
   },
   overrides: [
