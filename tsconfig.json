@@ -1,0 +1,5 @@
+{
+  "extends": "@lbwa/tsconfig",
+  "include": ["packages/react", "packages/typescript", "packages/universal"],
+  "exclude": ["packages/*/dist"]
+}
