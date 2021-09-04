@@ -73,6 +73,34 @@ module.exports = {
         '@typescript-eslint/no-floating-promises': [
           'error',
           { ignoreVoid: true, ignoreIIFE: true }
+        ],
+        // see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
+        camelCase: 'off',
+        '@typescript-eslint/naming-convention': [
+          'error',
+          {
+            selector: 'default',
+            format: ['camelCase'],
+            leadingUnderscore: 'forbid',
+            trailingUnderscore: 'forbid'
+          },
+
+          {
+            selector: 'variable',
+            format: ['camelCase', 'UPPER_CASE'],
+            leadingUnderscore: 'allowDouble',
+            trailingUnderscore: 'forbid'
+          },
+
+          {
+            selector: 'typeLike',
+            format: ['PascalCase'],
+            custom: {
+              // Enforce that type/interface/enum names do not begin with an I
+              regex: '^I[A-Z0-9]',
+              match: false
+            }
+          }
         ]
       }
     }
