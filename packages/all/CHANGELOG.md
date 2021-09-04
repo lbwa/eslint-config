@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config@0.4.3...@lbwa/eslint-config@0.5.0) (2021-09-04)
+
+### Features
+
+- **all:** @lbwa/typescript as default, instead of @lbwa/react ([e9aafc1](https://github.com/lbwa/eslint-config/commit/e9aafc1c5bcc54af5716c42c4f7358e6fcc42314))
+
 ## [0.4.3](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config@0.4.2...@lbwa/eslint-config@0.4.3) (2021-09-04)
 
 **Note:** Version bump only for package @lbwa/eslint-config

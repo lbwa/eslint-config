@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-typescript@0.5.0...@lbwa/eslint-config-typescript@0.6.0) (2021-09-04)
+
+### Features
+
+- **ts:** enum allow PascalCase/UPPER_CASE member name ([b42aefa](https://github.com/lbwa/eslint-config/commit/b42aefa972e32ff87eccb5d24caa5128abc69e75))
+
 # [0.5.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-typescript@0.4.2...@lbwa/eslint-config-typescript@0.5.0) (2021-09-04)
 
 ### Features
