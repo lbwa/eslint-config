@@ -1,8 +1,6 @@
-// @ts-check
-/**
- * @type {import('eslint').Linter.Config}
- */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   root: true,
   env: {
     browser: true,
@@ -66,3 +64,5 @@ module.exports = {
     }
   ]
 }
+
+module.exports = config
