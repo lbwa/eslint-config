@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-typescript@0.4.2...@lbwa/eslint-config-typescript@0.5.0) (2021-09-04)
+
+### Features
+
+- **typescript:** set @typescript-eslint/naming-convention to `error` ([0f7773f](https://github.com/lbwa/eslint-config/commit/0f7773f5ae8554c2f92ce25ebbafb6941958489b))
+
 ## [0.4.2](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-typescript@0.4.1...@lbwa/eslint-config-typescript@0.4.2) (2021-09-03)
 
 **Note:** Version bump only for package @lbwa/eslint-config-typescript

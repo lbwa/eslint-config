@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-universal@0.3.0...@lbwa/eslint-config-universal@0.4.0) (2021-09-04)
+
+### Features
+
+- **uni:** set `no-use-before-define` to `error` ([db0a175](https://github.com/lbwa/eslint-config/commit/db0a1755fb958371d39951a8a4d80193cbb6b12a))
+
 # [0.3.0](https://github.com/lbwa/eslint-config/compare/@lbwa/eslint-config-universal@0.2.0...@lbwa/eslint-config-universal@0.3.0) (2021-09-03)
 
 ### Features

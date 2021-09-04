@@ -1,6 +1,6 @@
 {
   "name": "@lbwa/eslint-config",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "An opinionated eslint config",
   "keywords": [
     "eslint"
@@ -33,7 +33,7 @@
     "eslint": "^7.25.0"
   },
   "dependencies": {
-    "@lbwa/eslint-config-react": "^0.2.2"
+    "@lbwa/eslint-config-react": "^0.2.3"
   },
   "devDependencies": {
     "@lbwa/tsconfig": "^1.0.0",
