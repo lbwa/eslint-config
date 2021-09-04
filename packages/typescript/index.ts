@@ -1,8 +1,6 @@
-// @ts-check
-/**
- * @type {import('eslint').Linter.Config}
- */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   extends: ['@lbwa/eslint-config-universal'],
   overrides: [
     {
@@ -106,3 +104,5 @@ module.exports = {
     }
   ]
 }
+
+module.exports = config
