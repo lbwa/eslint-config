@@ -6,6 +6,8 @@
   ],
   "scripts": {
     "prepare": "husky install && lerna bootstrap",
+    "build": "lerna run build --stream",
+    "prepublishOnly": "yarn build",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,sass,less,md}\"",
     "lint": "yarn eslint --ext .js --fix ."
   },
