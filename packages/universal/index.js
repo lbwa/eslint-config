@@ -39,13 +39,10 @@ module.exports = {
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
 
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
+    'no-debugger': process.env['NODE_ENV'] === 'production' ? 'error' : 'warn',
+    'no-console': process.env['NODE_ENV'] === 'production' ? 'error' : 'warn',
     'no-var': 'error',
-    'no-use-before-define': [
-      'error',
-      { functions: false, classes: false, variables: true }
-    ],
+    'no-use-before-define': 'error',
     // https://eslint.org/docs/rules/no-restricted-imports
     'no-restricted-imports': [
       'error',
