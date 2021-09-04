@@ -5,13 +5,13 @@
   "author": "Liu Bowen <mr_lbw@outlook.com>",
   "homepage": "https://github.com/lbwa/eslint-config",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
+    "lib": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -23,7 +23,9 @@
     "directory": "packages/react"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "prebuild": "rm -rf dist",
+    "build": "esw build --format=cjs --minify"
   },
   "bugs": {
     "url": "https://github.com/lbwa/eslint-config/issues"
@@ -39,5 +41,11 @@
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-testing-library": "^4.1.2"
+  },
+  "devDependencies": {
+    "@lbwa/tsconfig": "^1.0.0",
+    "@types/eslint": "^7.28.0",
+    "esw": "^0.6.0",
+    "typescript": "^4.4.2"
   }
 }

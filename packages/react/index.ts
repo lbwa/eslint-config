@@ -1,8 +1,6 @@
-// @ts-check
-/**
- * @type {import('eslint').Linter.Config}
- */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   extends: ['@lbwa/eslint-config-typescript', 'react-app', 'react-app/jest'],
   // eslint default parser
   // see https://eslint.org/docs/user-guide/configuring/plugins#specifying-parser
@@ -17,3 +15,5 @@ module.exports = {
     })
   ]
 }
+
+module.exports = config
