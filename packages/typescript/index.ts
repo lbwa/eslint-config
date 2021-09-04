@@ -82,14 +82,12 @@ const config: Linter.Config = {
             leadingUnderscore: 'forbid',
             trailingUnderscore: 'forbid'
           },
-
           {
             selector: 'variable',
             format: ['camelCase', 'UPPER_CASE'],
             leadingUnderscore: 'allowDouble',
             trailingUnderscore: 'forbid'
           },
-
           {
             selector: 'typeLike',
             format: ['PascalCase'],
@@ -98,6 +96,10 @@ const config: Linter.Config = {
               regex: '^I[A-Z0-9]',
               match: false
             }
+          },
+          {
+            selector: 'enumMember',
+            format: ['PascalCase', 'UPPER_CASE']
           }
         ]
       }
