@@ -1,4 +1,5 @@
 {
   "extends": "@lbwa/tsconfig",
-  "exclude": ["dist"]
+  "exclude": ["dist"],
+  "include": ["javascript.js", "index.ts"]
 }
