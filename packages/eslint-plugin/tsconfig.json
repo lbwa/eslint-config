@@ -1,0 +1,5 @@
+{
+  "extends": "@lbwa/tsconfig",
+  "includes": ["src"],
+  "exclude": ["dist"]
+}
